@@ -1,0 +1,29 @@
+{
+    "name": "sendeo/laravel-stats",
+    "description": "Rake-style code stats for Laravel.",
+    "type": "library",
+    "require": {
+        "illuminate/support": "^5.5",
+        "phploc/phploc": "~4.0.0",
+        "symfony/finder": "^3.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sendeo",
+            "email": "contact@sendeo.co"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Sendeo\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Sendeo\\LaravelStats\\StatsServiceProvider"
+            ]
+        }
+    }
+}
