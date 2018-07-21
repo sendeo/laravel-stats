@@ -5,7 +5,7 @@
     "require": {
         "illuminate/support": "^5.5",
         "phploc/phploc": "~4.0.0",
-        "symfony/finder": "^3.3"
+        "symfony/finder": "~4.0"
     },
     "license": "MIT",
     "authors": [
